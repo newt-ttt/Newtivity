@@ -1,0 +1,11 @@
+client:                     # give your tunnel a name so you can identify it later in the terminal
+ type: http              # tunnel type
+ to: localhost:5173        # the localhost service address
+ region: us              # region name to start a tunnel at, possible values (us, ap and eu)
+ reserved_domain: newtactivityclient.loclx.io # if you have a reserved subdomain or custom domain it should be here
+
+server:                     # give your tunnel a name so you can identify it later in the terminal
+ type: http              # tunnel type
+ to: localhost:8000       # the localhost service address
+ region: us              # region name to start a tunnel at, possible values (us, ap and eu)
+ reserved_domain: newtactivityserver.loclx.io # if you have a reserved subdomain or custom domain it should be here
